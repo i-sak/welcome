@@ -1,0 +1,144 @@
+/* ball bounce Cascading Stylesheet */
+@keyframes bounce {
+    from, to {
+        bottom: 0px;
+        animation-timing-function: ease-out;
+    }
+    50% {
+        bottom: 300px;
+        animation-timing-function: ease-in;
+    }
+}
+.divBall {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+#b1 { 
+    left: 10px;
+    background: red;
+    animation-duration: 5s;      
+}
+#b2 { 
+    left: 50px;
+    background: blue;
+    animation-duration: 4s;      
+}
+#b3 { 
+    left: 90px;
+    background: green;
+    animation-duration: 1s;      
+}
+#b4 { 
+    left: 130px;
+    background: silver;
+    animation-duration: 4s;      
+}
+#b5 { 
+    left: 170px;
+    background: black;
+    animation-duration: 5s;      
+}
+#b6 { 
+    left: 210px;
+    background: gray;
+    animation-duration: 1.5s;      
+}
+#b7 { 
+    left: 250px;
+    background: lightgray;
+    animation-duration: 4s;      
+}
+#b8 { 
+    left: 290px;
+    background: purple;
+    animation-duration: 2s;      
+}
+#b9 { 
+    left: 330px;
+    background: rgb(77, 0, 128);
+    animation-duration: 1s;      
+}
+#b10 { 
+    left: 370px;
+    background: rgb(45, 0, 128);
+    animation-duration: 3s;      
+}
+#b11 { 
+    left: 410px;
+    background: navy;
+    animation-duration: 2s;
+}
+#b12 { 
+    left: 450px;
+    background: blue;
+    animation-duration: 2s;
+}
+#b13 { 
+    left: 490px;
+    background: aqua;
+    animation-duration: 4s;
+}
+#b14 { 
+    left: 530px;
+    background: aquamarine;
+    animation-duration: 3s;
+}
+#b15 { 
+    left: 570px;
+    background: skyblue;
+    animation-duration: 5s;
+}
+#b16 { 
+    left: 610px;
+    background: greenyellow;
+    animation-duration: 1s;
+}
+#b17 { 
+    left: 650px;
+    background: green;
+    animation-duration: 1.5s;
+}
+#b18 { 
+    left: 690px;
+    background: yellow;
+    animation-duration: 3.5s;
+}
+#b19 { 
+    left: 730px;
+    background: orange;
+    animation-duration: 2s;
+}
+#b20 { 
+    left: 770px;
+    background: orangered;
+    animation-duration: 1.5s;
+}
+#b21 { 
+    left: 810px;
+    background: red;
+    animation-duration: 3s;
+}
+#b22 { 
+    left: 850px;
+    background: rgb(255, 0, 128);
+    animation-duration: 1s;
+}
+#b23 { 
+    left: 890px;
+    background: rgb(255, 0, 242);
+    animation-duration: 3s;
+}
+#b24 { 
+    left: 930px;
+    background: rgb(183, 0, 255);
+    animation-duration: 4s;
+}
+#b25 { 
+    left: 970px;
+    background: rgb(111, 0, 255);
+    animation-duration: 2.5s;
+}

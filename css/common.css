@@ -1,0 +1,134 @@
+/* 작성자 2017E7441 김이삭 */
+
+/* 전체 초기화 */
+* {margin: 0; padding: 0;}
+body {background-color: rgb(226, 225, 225);}
+
+/* author */
+#author {
+    position: fixed;
+    right: 10px;
+    top:10px;
+    background-color: lightseagreen;
+    border-radius: 15px;
+    color:honeydew;
+    padding:10px;
+    font-weight: bold;
+}
+#author > a:link {color:honeydew; text-decoration: none;}
+#author > a:visited {color:honeydew; text-decoration: none;}
+/* header */
+header.mainHeader {
+    background-color: #def8f6;
+    background-image: url("../img/header_back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* 가운데 정렬 */
+    text-align: center;
+    padding: 85px;
+}
+header.mainHeader h2 .mainLink:link {text-decoration: none; color:honeydew;}
+header.mainHeader h2 .mainLink:visited { text-decoration: none; color:honeydew;}
+
+
+.body {
+    width: 1200px;
+    margin: auto;
+}
+/*  nav   */
+.mainNav {
+    background-color: navy;
+    border-top: 1px solid honeydew;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.navList, .navList a {
+    color:lightgray;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navList > li a:hover {
+    color : orangered;
+    transition: color 0.5s;
+}
+.navList > li:hover {color:white}
+.navList > li {   /* navigation button design */
+    display: inline-block;
+    width: 230px;
+    margin: 5px 0px;
+    border-right: 1px solid honeydew;
+}
+.navList li:last-child {border-right-width: 0px;}
+
+/* nav >>> detail list */
+.navi_detail_list{display: none; list-style: none; width: 224px; position:absolute;}
+.navList .navi_menu:hover > .navi_detail_list {
+    display: block;
+    color: honeydew;
+    background-color: navy; 
+}
+.navi_detail_list > li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navi_detail_list > li:hover {
+    color:white;
+    font-weight: bold;
+}
+/* leftDiv */
+div.leftDiv {
+    position: fixed;
+    width: 190px;
+    top: 203px;
+    left: 1px;
+    background-color: whitesmoke;
+ }
+
+
+/* section */
+section.section > iframe {
+    margin: 5px 0;
+    border-width: 0px;
+    width :1200px;
+    height: 1100px;
+}
+
+/* aside : music player */
+.musicPlayer {
+    position: fixed;
+    top : 80%;
+    right: 1%;
+    width: 315px;
+    height: 130px;
+    background-color: white;
+    border-radius: 30px;
+}
+.musicPlayer > iframe {
+    width: 315px;
+    height: 130px;
+}
+
+
+/* footer */
+footer.footer {
+    color: rgb(210, 210, 210);
+    background-color: rgb(33, 33, 33);
+    height: 200px;
+}
+
+footer.footer > div.fcenter {
+    width:1200px;
+    margin: auto;
+    padding-top: 50px;
+    font-weight: 100;
+    font-size: small;
+}
+
+footer.footer > div.fcenter th, td {
+    text-align: left;
+    padding-right: 20px;
+}
+footer a:link {color: rgb(210, 210, 210); text-decoration: none;}
+footer a:visited {color: rgb(210, 210, 210); text-decoration: none;}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" href="css/view.css">
+    
+    <title>Welcome!</title>
+
+    <style>
+        header > h3 {
+            margin: 30px;
+            text-align: center;
+        }
+        header > p {
+            font-weight: 500;
+            margin: 30px 100px;
+        }
+        /* 본문 article 영역 */
+        article.article a:link { color: black; text-decoration: none;}
+        article.article a:visited { color: black; text-decoration: none;}
+        article.article div{
+            background-color: white;
+            display: inline-block;
+            text-align: center;
+            font-weight: 600;
+            width: 234px;
+        }
+        article.article div img  {
+            width: 231px;
+            height: 300px;
+        }
+        article.article div:hover {
+            box-shadow:
+            0 0 5px rgb(99, 99, 255),
+            0 0 10px rgb(155, 253, 253),
+            0 0 15px skyblue;
+        }
+        .mainFoot {
+            text-align: center;
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+        .mainFoot div {
+            display: inline-block;
+            margin: 10px;
+        }
+        .mainFoot div img{
+            width: 300px;
+            height: 200px;
+        }
+        .subMenuList {
+            margin: 20px;
+        }
+        .subMenuList a  { display: inline-block; width:110px;}
+        .subMenuList > strong, a, h4 {
+            text-decoration: none;
+            color: black;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h3 class="secTitle">Home</h3>
+    <header>
+        <h3>제 소개와 제가 좋아하는 것을 소개하는 웹 페이지입니다.</h3>
+        <p>&nbsp;안녕하십니까, 김이삭입니다. 공부했던 내용을 토대로
+            웹페이지를 만들었습니다. 이 홈페이지는 자유주제로서,
+            저의 소개 및 제가 좋아하는 것을 소개하는 웹페이지입니다.
+        </p>
+        <p>
+            제가 관심있고, 좋아하는 것에는
+            게임(Game), 축구(Soccer/football), 미디어(Media), 음악(Music)이
+            있습니다. 그래서 저는 이 좋아하는 것들을 제 페이지의 주제로 삼고,
+            해당 페이지를 만드는 동기가 되었으며, 이를 기반으로 네비게이션 메뉴와
+            웹 페이지를 구성했습니다.
+        </p>
+
+    </header>
+
+    <article class="article">
+        <div><a href="me.html" target="contentFrame"><img src="img/isak.jpg" title="제 소개페이지입니다."><p>About Me</p></a></div>
+        <div><a href="game.html" target="contentFrame"><img src="img/game.jpg" title="제가 좋아하는 게임페이지입니다."><p>Game</p></a></div>
+        <div><a href="soccer.html" target="contentFrame"><img src="img/sports.jpg" title="제가 좋아하는 축구에 관련된 페이지입니다."><p>Soccer/football</p></a></div>
+        <div><a href="media.html" target="contentFrame"><img src="img/media.jpg" title="제가 좋아하는 미디어에 관련된 페이지입니다."><p>Media</p></a></div>
+        <div><a href="music.html" target="contentFrame"><img src="img/music.jpg" title="제가 좋아하는 음악 페이지 입니다."><p>Music</p></a></div>
+    </article>
+
+    <div class="subMenuList">
+        <h4>세부페이지 바로가기</h4>
+        <strong><a href="game.html" target="contentFrame">Game</a></strong>
+        <a href="menuGame/gersang.html" target="contentFrame">Gersang</a>
+        <a href="menuGame/starcraft.html" target="contentFrame">Starcraft</a>
+        <a href="menuGame/fifa.html" target="contentFrame">FIFAonline</a>
+        <a href="menuGame/sudden.html" target="contentFrame">SuddenAttack</a>
+        <a href="menuGame/tales.html" target="contentFrame">TalesWeaver</a><br>
+        <strong><a href="soccer.html" target="contentFrame">Soccer/Football</a></strong>
+        <a href="menuSoccer/premier.html" target="contentFrame">프리미어리그</a>
+        <a href="menuSoccer/laliga.html" target="contentFrame">프리메라리가</a>
+        <a href="menuSoccer/bundes.html" target="contentFrame">분데스리가</a>
+    </div>
+
+
+    <br>
+    <footer class="mainFoot">
+        <h3 style="text-align: left; border-bottom: 1px solid black;">Message (To. reader / From. I-sak Kim)</h3>
+        <div>
+            <img src="img/coffee.jpg">
+            <p>힘들더라도 잠시 커피(차)한잔의 여유를 즐기세요!</p>
+        </div>
+        <div>
+            <img src="img/hometr.jpg">
+            <p>집에 있더라도 가끔씩 운동해주세요!</p>
+        </div>
+        <div>
+            <img src="img/food.jpg">
+            <p>바쁘시더라도 끼니는 제 시간에 드세요!</p>
+        </div>
+    </footer>
+
+</body>
+</html>

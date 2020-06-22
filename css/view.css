@@ -1,0 +1,23 @@
+* {margin: 0; padding: 0;}
+body {width: 1200px; background-color: white;}
+.secTitle {margin: 20px; border-bottom: 1px solid black;}
+.sectionBody {    padding : 50px;}
+.mainImage {width: 640px; height: 400px;}
+/* 게임 이미지 페이드인 */
+@keyframes padein{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.mainImage {
+    animation-name: padein;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+    margin-right: 20px;
+    float: left;
+}
+/* 게임 설명 */
+.descriptionBox {text-align: justify;} /* 공통 */
+.game_description1 {animation: padein 2s 1;}
+.game_description2 {animation: padein 3s 1;}
+.imageSkil {animation: padein 3.3s 1;}
